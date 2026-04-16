@@ -15,6 +15,7 @@ public class Main extends Application {
         launch();
     }
 
+    @Override
     public void start(Stage stage) throws Exception {
         main = this;
         stageWindow = stage;
