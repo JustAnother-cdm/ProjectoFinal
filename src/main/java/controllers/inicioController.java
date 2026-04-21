@@ -11,7 +11,7 @@ public class InicioController {
     private PasswordField Contraseña;
 
     @FXML
-    private TextField correo;
+    private TextField id;
 
     @FXML
     void logIn(ActionEvent event) {
