@@ -22,6 +22,4 @@ public class InicioController {
     void signUp(ActionEvent event) {
 
     }
-
-
 }
