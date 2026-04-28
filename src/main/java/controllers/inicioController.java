@@ -1,5 +1,6 @@
 package controllers;
 
+
 import application.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -8,7 +9,6 @@ import javafx.scene.control.TextField;
 import utilities.Paths;
 
 public class InicioController {
-
     @FXML
     private PasswordField Contraseña;
 
@@ -21,7 +21,7 @@ public class InicioController {
     }
 
     @FXML
-    void signUp(ActionEvent event) {
-        Main.main.setScene(Paths.CREAR_VISTANTE);
-    }
+    void signUp(ActionEvent event) {Main.main.setScene(Paths.INICIO);}
+
 }
+
