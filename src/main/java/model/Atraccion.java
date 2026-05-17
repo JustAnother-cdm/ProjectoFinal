@@ -1,8 +1,11 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Atraccion {
     private String nombre;
     private Zona theZona;
+    private ArrayList<Operador> operadores = new ArrayList<>();
     private EstadoAtraccion estadoAtraccion;
     private int identificador;
     private int capacidadMaxima;
@@ -14,8 +17,9 @@ public class Atraccion {
     private int TiempoEsperaEstimadoMinutos = 0;
     private String razonCierre;
 
-    public Atraccion(String nombre, Zona theZona, EstadoAtraccion estadoAtraccion, int identificador, int capacidadMaxima, int edadMinima, int contadorVisitantes, float alturaMinima, float[] costoAdicionalTickets) {
+    public Atraccion(String nombre, ArrayList<Operador> operadores, Zona theZona, EstadoAtraccion estadoAtraccion, int identificador, int capacidadMaxima, int edadMinima, int contadorVisitantes, float alturaMinima, float[] costoAdicionalTickets) {
         this.nombre = nombre;
+        this.operadores = operadores; 
         this.theZona = theZona;
         this.estadoAtraccion = estadoAtraccion;
         this.identificador = identificador;
@@ -99,7 +103,7 @@ public class Atraccion {
     }
 
     public int calcularTiempoEspera(){
-        int estimado = (10*contadorVisitantes)/2;
+        int estimado = (contadorVisitantes + 2 * (contadorVisitantes % 10))/2;
         setTiempoEsperaEstimadoMinutos(estimado);
         return getTiempoEsperaEstimadoMinutos();
     }
