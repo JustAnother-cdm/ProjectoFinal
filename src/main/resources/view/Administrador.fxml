@@ -10,52 +10,102 @@
    <children>
       <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0">
          <children>
-            <Label layoutX="276.0" layoutY="65.0" text="Zonas">
+            <Label layoutX="277.0" layoutY="14.0" text="Zonas">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <Label layoutX="255.0" layoutY="186.0" text="Atracciones">
+            <Label layoutX="254.0" layoutY="101.0" text="Atracciones">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <Button layoutX="160.0" layoutY="99.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Ver">
+            <Button layoutX="160.0" layoutY="41.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Ver">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button layoutX="300.0" layoutY="99.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Modificar">
+            <Button layoutX="300.0" layoutY="41.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Modificar">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button layoutX="160.0" layoutY="223.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Ver">
+            <Button layoutX="160.0" layoutY="128.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Ver">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button layoutX="300.0" layoutY="223.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Modificar">
+            <Button layoutX="300.0" layoutY="128.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Modificar">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button layoutX="20.0" layoutY="99.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Crear">
+            <Button layoutX="20.0" layoutY="41.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Crear">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button layoutX="440.0" layoutY="99.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Eliminar">
+            <Button layoutX="440.0" layoutY="41.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Eliminar">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button layoutX="440.0" layoutY="223.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Eliminar">
+            <Button layoutX="440.0" layoutY="128.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Eliminar">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button layoutX="20.0" layoutY="223.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Crear">
+            <Button layoutX="20.0" layoutY="128.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Crear">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="263.0" layoutY="186.0" text="Visitantes">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="20.0" layoutY="213.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Crear">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="160.0" layoutY="211.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Ver">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="300.0" layoutY="211.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Modificar">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="440.0" layoutY="211.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Eliminar">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="253.0" layoutY="271.0" text="Operadores">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="20.0" layoutY="298.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Crear">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="160.0" layoutY="298.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Ver">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="300.0" layoutY="298.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Modificar">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="440.0" layoutY="298.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="140.0" text="Eliminar">
                <font>
                   <Font size="18.0" />
                </font>
