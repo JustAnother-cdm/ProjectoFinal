@@ -25,4 +25,5 @@ public class Zona {
     public void setListaAtracciones(ArrayList<Atraccion> listaAtracciones) {
         this.listaAtracciones = listaAtracciones;
     }
+
 }

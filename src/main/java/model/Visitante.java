@@ -36,4 +36,6 @@ public class Visitante extends Persona {
     public void setAvatar(Image avatar) {
         this.avatar = avatar;
     }
+
+
 }
